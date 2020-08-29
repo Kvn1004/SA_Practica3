@@ -1,8 +1,9 @@
+// funcion para verificar estado de pedido al restaurante
 var http = require("http");
 
 var options = {
     host: 'localhost',
-    port: 3000,
+    port: 3000, // puerto 3000 del microservicio del restaurante
     path: '/pedido/1',
     method: 'GET'
 };

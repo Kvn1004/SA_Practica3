@@ -1,8 +1,9 @@
+// funcion para verificar estado de pedido al repartidor
 var http = require("http");
 
 var options = {
     host: 'localhost',
-    port: 4000,
+    port: 4000, // puerto 4000 del microservicio del repartidor
     path: '/pedido',
     method: 'GET'
 };

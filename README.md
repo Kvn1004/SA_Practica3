@@ -20,6 +20,14 @@ en cada carpeta raíz de los microservicios.
 El microservicio del restaurante se levantará en el puerto 3000 de localhost, el microservicio del repartidor se levantará en el puerto 4000 y el microservicio del cliente en el puerto 5000.
 Una vez estén los servicios levantados, se pueden ejecutar los scripts para realizar solicitudes del cliente al restaurante y repartidor, del restaurante al repartidor y del repartidor al cliente y al restaurante, los cuales devolverán un mensaje en consola mostrando el resultado de la solicitud.
 
+Para ejecutar los scripts, solo basta con ejecutarlos haciendo uso de node como se muestra acontinuación:
+```
+node verificar_pedido_restaurante.js
+```
+
+## Desarrollado con
+- Node.js - framework para la arquitectura REST utilizada para crear los microservicios.
+- Express - framework de Node.js que permite crear las API REST.
 ## Contribución.
 Pull requests para mejorar el codigo o la presentación de la página son bienvenidas.
 

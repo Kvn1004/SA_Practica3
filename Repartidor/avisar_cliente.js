@@ -1,8 +1,9 @@
+// funcion para avisar a cliente de su pedido
 var http = require("http");
 
 var options = {
     host: 'localhost',
-    port: 5000,
+    port: 5000, // puerto 5000 del microservicio del cliente
     method: 'POST'
 };
 
