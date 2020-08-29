@@ -1,6 +1,6 @@
-# Practica 3 Software Avanzado -  Coreografía de servicios
+# Practica 4 Software Avanzado -  Coreografía de servicios
 
-Esta aplicación conecta 3 microservicios que simulan una aplicación de crowdsourcing de comida a domicilio. 
+Esta aplicación conecta 3 microservicios que simulan una aplicación de crowdsourcing de comida a domicilio, utlizando un ESB para manejar las interacciones entre microservicios.
 Los microservicios son:
 - Restaurante: simula la recepción y envío de pedidos de los clientes hacia los repartidores.
 - Repartidor: recibe los pedidos del restaurante y los entrega al cliente.
