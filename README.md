@@ -28,6 +28,7 @@ node verificar_pedido_restaurante.js
 ## Desarrollado con
 - Node.js - framework para la arquitectura REST utilizada para crear los microservicios.
 - Express - framework de Node.js que permite crear las API REST.
+
 ## Contribución.
 Pull requests para mejorar el codigo o la presentación de la página son bienvenidas.
 
