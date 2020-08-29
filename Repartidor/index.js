@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get('/pedido', function(req, res) {
-    res.send("Llevo su pedido en camino");
+    res.send("Su pedido está entregado");
 });
 
 app.get('/', function(req, res) {
