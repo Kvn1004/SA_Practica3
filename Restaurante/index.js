@@ -16,6 +16,10 @@ app.get('/pedido/:pedidoid', function(req, res) {
     res.send(mensaje[req.params.pedidoid].data);
 });
 
+app.get('/', function(req, res) {
+    res.send("Restaurante Practica 3");
+});
+
 app.post('/pedido', function(req, res) {
     res.send('Pedido del cliente recibido');
 });
