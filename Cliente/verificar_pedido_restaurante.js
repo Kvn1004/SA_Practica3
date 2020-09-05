@@ -3,7 +3,7 @@ var http = require("http");
 
 var options = {
     host: 'localhost',
-    headers: { 'servicio': 'cliente_restaurante' },
+    headers: { 'servicio': 'restaurante' },
     port: 6000, // redirigimos a servidor ESB
     path: '/pedido/1',
     method: 'GET'
