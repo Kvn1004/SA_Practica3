@@ -5,6 +5,7 @@ Los microservicios son:
 - Restaurante: simula la recepción y envío de pedidos de los clientes hacia los repartidores.
 - Repartidor: recibe los pedidos del restaurante y los entrega al cliente.
 - Cliente: realiza los pedidos y puede solicitar información acerca del estado de los mismos al restaurante y al repartidor.
+- ESB: maneja la comunicación entre los 3 microservicios del sistema.
 
 ## Instalación
 
