@@ -3,7 +3,7 @@ var http = require("http");
 
 var options = {
     host: 'localhost',
-    port: 4000, // puerto 4000 del microservicio del repartidor
+    port: 6000, // redirigimos a orquestador de servicios
     path: '/pedido',
     method: 'GET'
 };

@@ -3,7 +3,8 @@ var http = require("http");
 
 var options = {
     host: 'localhost',
-    port: 3000,
+    headers: { 'servicio': 'cliente' },
+    port: 6000, //redirigimos al puerto 6000 del orquestador ESB
     path: '/pedido',
     method: 'POST'
 };

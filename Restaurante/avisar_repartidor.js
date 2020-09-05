@@ -3,7 +3,8 @@ var http = require("http");
 
 var options = {
     host: 'localhost',
-    port: 4000, // puerto 4000 del microservicio del repartidor
+    port: 6000, // redirigimos a servidor ESB
+    headers: { 'servicio': 'cliente_restaurante' },
     path: '/pedido',
     method: 'POST'
 };
